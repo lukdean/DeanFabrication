@@ -8,5 +8,5 @@ Desired Fonts:
 
 Learning From:
     https://html5up.net/
-        https://html5up.net/parallelism <- for the gallery sections
-        https://html5up.net/phantom     <- landing page/ homepage
+    https://html5up.net/parallelism <- for the gallery sections
+    https://html5up.net/phantom     <- landing page/ homepage
