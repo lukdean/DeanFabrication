@@ -1,4 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+h2, p {
+    background-color: grey;
+    padding: .5em;
+    color: whitesmoke;
+}
+
+.header {
+    position: absolute;
+    height: 15em;
+    padding: 2em;
+}
+
+.header img {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 22.5%;
+  }
+  
+.header h1 {
+    font-family: Pacifico;
+    font-size: 100px;
+    position: absolute;
+    top: 0%;
+    left: 400%;
+    white-space: nowrap;
+}
+
+
+
+
+
+
 .upper {
+    padding-top: 20em;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -6,73 +41,111 @@
 
 .FDM {
     position: relative;
+    transition: transform .15s;
+}
+
+.FDM:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
 }
 
 .SLA {
     position: relative;
+    transition: transform .15s;
+}
+
+.SLA:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
 }
 
 .CNC {
     position: relative;
+    transition: transform .15s;
 }
 
-h2, p {
-    background-color: grey;
-    padding: .5em;
-    color: whitesmoke;
+.CNC:hover {
+    --ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
 }
-
 
 .fdm_text .fdm_title{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
     white-space: nowrap;
+}
+
+.fdm_text:hover .fdm_title{
+    visibility: hidden;
 }
 
 .fdm_text .description{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    white-space: nowrap;
+    visibility: hidden;
+}
+
+.fdm_text:hover .description{
+    visibility: visible;
 }
 
 .sla_text .sla_title{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
     white-space: nowrap;
+}
+
+.sla_text:hover .sla_title{
+    visibility: hidden;
 }
 
 .sla_text .description{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    white-space: nowrap;
+    visibility: hidden;
+}
+
+.sla_text:hover .description{
+    visibility: visible;
 }
 
 .cnc_text .cnc_title{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
     white-space: nowrap;
 }
 
+.cnc_text:hover .cnc_title{
+    visibility: hidden;
+}
+
 .cnc_text .description{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
-    white-space: nowrap;
+    visibility: hidden;
+}
+
+.cnc_text:hover .description{
+    visibility: visible;
 }
