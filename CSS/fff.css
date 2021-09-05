@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+h2, p {
+    background-color: grey;
+    padding: .5em;
+    color: whitesmoke;
+}
+
+.header {
+    position: absolute;
+    height: 15em;
+    padding: 2em;
+}
+
+.header img {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 22.5%;
+  }
+  
+.header h1 {
+    font-family: Pacifico;
+    font-size: 100px;
+    position: absolute;
+    top: 0%;
+    left: 400%;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+.upper {
+    padding-top: 20em;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.printer, .filament, .part {
+    position: relative;
+    transition: transform .15s;
+}
+
+.FFF:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
+.fff_text, .fff_title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.fff_text:hover, .fff_title{
+    visibility: hidden;
+}
+
+.fff_text, .description{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    visibility: hidden;
+}
+
+.fff_text:hover, .description{
+    visibility: visible;
+}
