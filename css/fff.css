@@ -58,7 +58,7 @@ h2, p {
     white-space: nowrap;
 }
 
-.printer_title:hover, .filament_title:hover, .part_title:hover{
+.printer:hover .printer_title, .filament:hover .filament_title, .part:hover .part_title{
     visibility: hidden;
 }
 
