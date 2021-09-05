@@ -29,9 +29,6 @@ h2, p {
 
 
 
-
-
-
 .upper {
     padding-top: 20em;
     position: relative;
@@ -39,10 +36,12 @@ h2, p {
     justify-content: space-around;
 }
 
+
 .FFF, .SLA, .CNC {
     position: relative;
     transition: transform .15s;
 }
+
 
 .FFF:hover, .SLA:hover, .CNC:hover {
     -ms-transform: scale(1.05); /* IE 9 */
@@ -50,7 +49,7 @@ h2, p {
     transform: scale(1.05); 
 }
 
-.fff_text .fff_title{
+.fff_text .fff_title, .sla_text .sla_title, .cnc_text .cnc_title{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -59,11 +58,11 @@ h2, p {
     white-space: nowrap;
 }
 
-.fff_text:hover .fff_title{
+.fff_text:hover .fff_title, .sla_text:hover .sla_title, .cnc_text:hover .cnc_title{
     visibility: hidden;
 }
 
-.fff_text .description{
+.fff_text .description, .sla_text .description, .cnc_text .description{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -72,58 +71,6 @@ h2, p {
     visibility: hidden;
 }
 
-.fff_text:hover .description{
-    visibility: visible;
-}
-
-.sla_text .sla_title{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    white-space: nowrap;
-}
-
-.sla_text:hover .sla_title{
-    visibility: hidden;
-}
-
-.sla_text .description{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-    visibility: hidden;
-}
-
-.sla_text:hover .description{
-    visibility: visible;
-}
-
-.cnc_text .cnc_title{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    white-space: nowrap;
-}
-
-.cnc_text:hover .cnc_title{
-    visibility: hidden;
-}
-
-.cnc_text .description{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-    visibility: hidden;
-}
-
-.cnc_text:hover .description{
+.fff_text:hover .description, .sla_text:hover .description, .cnc_text:hover .description{
     visibility: visible;
 }
