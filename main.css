@@ -81,7 +81,7 @@ h2, p {
     white-space: nowrap;
 }
 
-.fff_text:hover .fdm_title{
+.fff_text:hover .fff_title{
     visibility: hidden;
 }
 
