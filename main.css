@@ -72,7 +72,7 @@ h2, p {
     transform: scale(1.05); 
 }
 
-.fdm_text .fdm_title{
+.fff_text .fff_title{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -81,11 +81,11 @@ h2, p {
     white-space: nowrap;
 }
 
-.fdm_text:hover .fdm_title{
+.fff_text:hover .fdm_title{
     visibility: hidden;
 }
 
-.fdm_text .description{
+.fff_text .description{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -94,7 +94,7 @@ h2, p {
     visibility: hidden;
 }
 
-.fdm_text:hover .description{
+.fff_text:hover .description{
     visibility: visible;
 }
 
