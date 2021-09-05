@@ -37,13 +37,13 @@ h2, p {
 }
 
 
-.FFF, .SLA, .CNC {
+.fff, .sla, .cnc {
     position: relative;
     transition: transform .15s;
 }
 
 
-.FFF:hover, .SLA:hover, .CNC:hover {
+.fff:hover, .sla:hover, .cnc:hover {
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05); 
@@ -58,11 +58,11 @@ h2, p {
     white-space: nowrap;
 }
 
-.FFF:hover .fff_title, .SLA:hover .sla_title, .CNC:hover .cnc_title{
+.fff:hover .fff_title, .sla:hover .sla_title, .cnc:hover .cnc_title{
     visibility: hidden;
 }
 
-.FFF .description, .SLA .description, .CNC .description{
+.fff .description, .sla .description, .cnc .description{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -71,6 +71,6 @@ h2, p {
     visibility: hidden;
 }
 
-.FFF:hover .description, .SLA:hover .description, .CNC:hover .description{
+.fff:hover .description, .sla:hover .description, .cnc:hover .description{
     visibility: visible;
 }
