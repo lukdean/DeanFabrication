@@ -47,7 +47,7 @@ h2, p {
     transform: scale(1.05); 
 }
 
-.fff_text, .fff_title{
+.printer_title, .filament_title, .part_title{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -56,11 +56,11 @@ h2, p {
     white-space: nowrap;
 }
 
-.fff_text:hover, .fff_title{
+.printer_title:hover, .filament_title:hover, .part_title:hover{
     visibility: hidden;
 }
 
-.fff_text, .description{
+.pinter .description, .filament .description, .part . description{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -69,6 +69,6 @@ h2, p {
     visibility: hidden;
 }
 
-.fff_text:hover, .description{
+.pinter:hover .description, .filament:hover .description, .part:hover . description{
     visibility: visible;
 }
