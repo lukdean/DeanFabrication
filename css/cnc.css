@@ -37,19 +37,19 @@ h2, p {
 }
 
 
-.printer, .filament, .part {
+.machine, .tool, .part {
     position: relative;
     transition: transform .15s;
 }
 
 
-.printer:hover, .filament:hover, .part:hover {
+.machine:hover, .tool:hover, .part:hover {
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
     transform: scale(1.05); 
 }
 
-.printer_title, .filament_title, .part_title{
+.machine_title, .tool_title, .part_title{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -58,11 +58,11 @@ h2, p {
     white-space: nowrap;
 }
 
-.printer:hover .printer_title, .filament:hover .filament_title, .part:hover .part_title{
+.machine:hover .machine_title, .tool:hover .tool_title, .part:hover .part_title{
     visibility: hidden;
 }
 
-.printer .description, .filament .description, .part . description{
+.machine .description, .tool .description, .part . description{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -71,6 +71,6 @@ h2, p {
     visibility: hidden;
 }
 
-.printer:hover .description, .filament:hover .description, .part:hover . description{
+.machine:hover .description, .tool:hover .description, .part:hover . description{
     visibility: visible;
 }
