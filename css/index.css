@@ -1,76 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-h2, p {
-    background-color: grey;
-    padding: .5em;
-    color: whitesmoke;
-}
 
 .header {
-    position: absolute;
-    height: 15em;
-    padding: 2em;
-}
-
-.header img {
-    width: 10em;
-    height: 10em;
-    position: absolute;
-    top: 22.5%;
-  }
-  
-.header h1 {
-    font-family: Pacifico;
-    font-size: 100px;
-    position: absolute;
-    top: 0%;
-    left: 400%;
-    white-space: nowrap;
-}
-
-
-
-.upper {
-    padding-top: 20em;
     position: relative;
-    display: flex;
-    justify-content: space-around;
 }
 
-
-.fff, .cnc, .model {
+.brand {
     position: relative;
-    transition: transform .15s;
+    height: 50px;
+    margin: 0%;
 }
 
-
-.fff:hover, .cnc:hover, .model:hover {
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
-}
-
-.fff_title, .cnc_title, .model_title{
+.logo{
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    white-space: nowrap;
+    height: 100px;
+    max-width: auto;
+    top: 0;
+    left: 0;
 }
 
-.fff:hover .fff_title, .cnc:hover .sla_title, .model:hover .cnc_title{
-    visibility: hidden;
+.logo img{
+    width: 100px;
+    height: auto;
 }
 
-.fff .description, .cnc .description, .model .description{
+.name {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 5;
-    visibility: hidden;
-}
-
-.fff:hover .description, .sla:hover .description, .model:hover .description{
-    visibility: visible;
+    width: 75%;
+    top: 75%;
+    right: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: clamp(1.5em,.5em,3em)
 }
