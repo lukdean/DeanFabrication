@@ -6,6 +6,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
 }
 
 .header {
@@ -13,6 +14,7 @@ html, body {
     height: auto;
     margin: 0%;
     max-width: 100%;
+    margin: 15px;
 }
 
     /* Logo Stuff */
@@ -66,6 +68,7 @@ html, body {
         border: none;
         border-radius: 25px;
         margin-top: 5px;
+        margin-bottom: 25px;
         padding: .5% auto .5% auto;
     }
     .quote:hover {background-color: #4C4B2C;}
@@ -74,7 +77,7 @@ html, body {
 .main {
     position: relative;
     height: auto;
-    margin: 0%;
+    margin: 15px;
     max-width: 100%;
 }
     /* Container Location Stuff */
@@ -98,6 +101,8 @@ html, body {
         max-width: 100%;
         left: 50%;
         transform: translateX(-50%);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+        border-radius: 5px;
     }
 
     .container h2 {
@@ -111,6 +116,7 @@ html, body {
     .container p {
         position: absolute;
         max-width: 100%;
+        padding: 1%;
         top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -121,5 +127,16 @@ html, body {
     }
     .container:hover p {
         visibility: visible;
+    }
+
+    .footer {
+        width: 100%;
+        color: white;
+        padding: 15px;
+        box-shadow:0 0 1.5vh 0 #252F4D;
+        background-color: #252F4D;
+        -webkit-text-stroke-width: .05px;
+        -webkit-text-stroke-color: #4C4B2C;
+        text-shadow: 1.75px 1.25px #4C4B2C;
     }
 
