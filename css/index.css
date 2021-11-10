@@ -9,6 +9,10 @@ html, body {
     margin: 0;
 }
 
+a {
+    color: #091026;
+}
+
 .header {
     position: relative;
     height: auto;
@@ -138,4 +142,8 @@ html, body {
         -webkit-text-stroke-width: .05px;
         -webkit-text-stroke-color: #4C4B2C;
         text-shadow: 1.75px 1.25px #4C4B2C;
+    }
+
+    .footer a {
+        color: white;
     }
